@@ -6,8 +6,8 @@ def hello
   end 
   
 def raise_hand 
-   9.times{super 
-    puts "Pick me!"
-    end}
+   super 
+    9.times{puts "Pick me!"}
+    end
 
 end
